@@ -1,11 +1,6 @@
 'use client';
 
 import { useEffect } from 'react';
-import { MetaProperty } from 'typescript';
-
-export const meta: MetaProperty = {
-  title: 'Test',
-};
 
 export default function Error({
   error,
